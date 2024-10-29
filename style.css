@@ -1,0 +1,50 @@
+header {
+    max-width: fit-content;
+    margin-left: auto;
+    margin-right: auto;
+}
+section {
+    max-width: fit-content;
+    margin-left: auto;
+    margin-right: auto;
+} 
+footer {
+    max-width: fit-content;
+    margin-left: auto;
+    margin-right: auto;
+}
+.why_us {
+    max-width: fit-content;
+    margin-left: auto;
+    margin-right: auto;
+}
+h1 {
+    font-family: 'Poppins', Helvetica, Arial, Lucida, sans-serif;
+    text-transform: uppercase;
+    font-size: 50px;
+    font-weight: 900;
+    font-style: italic;
+    display: block;
+    letter-spacing: 5px;
+    color: white;
+}
+h2 {
+    font-family: 'Poppins', Helvetica, Arial, Lucida, sans-serif;
+    text-transform: uppercase;
+    font-size: 30px;
+    font-weight: 900;
+    font-style: italic;
+    display: block;
+    letter-spacing: 15px;
+    color: white; 
+}
+h3 {
+    font-family: 'Poppins', Helvetica, Arial, Lucida, sans-serif;
+    text-transform: uppercase;
+    font-size: 20px;
+    font-weight: 900;
+    font-style: italic;
+    display: block;
+    letter-spacing: 5px;
+    color: white; 
+}
