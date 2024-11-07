@@ -1,0 +1,6 @@
+  --background: #000;
+  --text-primary: #fff;
+  --text-secondary: #8e05c2;
+  --accent: #8e05c2;
+  --border: #808080;
+  --form-bg: #191919;
