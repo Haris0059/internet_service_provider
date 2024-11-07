@@ -1,0 +1,84 @@
+.image-container {
+    position: relative;
+    display: inline-block;
+}
+
+.img-fluid {
+    width: 100%;
+    height: auto;
+}
+
+.text-overlay {
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    color: white;
+    font-size: 10vw;
+    font-weight: 700;
+    text-align: center;
+    padding: 10px;
+    text-shadow: 5px 5px 5px black;
+    white-space: nowrap;
+    overflow: hidden;
+}
+
+.text-descpription {
+    position: absolute;
+    top: 65%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    color: yellow;
+    font-size: 6vw;
+    font-weight: 400;
+    text-align: center;
+    padding: 10px;
+    white-space: nowrap;
+    overflow: hidden;
+    font-family: "Manrope", sans-serif;
+}
+
+.text-small {
+    position: absolute;
+    top: 75%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    color: white;
+    font-size: 2vw;
+    font-weight: 200;
+    text-align: center;
+    padding: 10px;
+    text-shadow: 5px 5px 5px black;
+    white-space: nowrap;
+    overflow: hidden;
+    font-family: "Manrope", sans-serif;
+}
+
+
+.banner {
+    text-align: center;
+    background-color: black;
+    border: 0;
+    outline: 0;
+}
+.banner-title{
+    color: white;
+    font-family: "Manrope", sans-serif;
+    font-weight: 700;
+}
+
+#banner-title-gradient {
+    background: linear-gradient(120deg, #6717cd, #2871fa);
+    font-family: "Manrope", sans-serif;
+    font-weight: 700;
+    -webkit-text-fill-color: transparent;
+    -webkit-background-clip: text;
+}
+
+li{
+    display: inline-block;
+    font-size: 16px;
+    font-weight: 400;
+    list-style: square;
+    padding-left: 6px;
+}
