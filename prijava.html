@@ -1,0 +1,49 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>ISP | Prijavi Se</title>
+    <link rel="stylesheet" href="style.css">
+    <link rel="stylesheet" href="login.css">
+</head>
+<body>
+
+    <nav>
+        <a href="#" class="logo">ISP</a>
+
+        <ul class="nav_links">
+            <li><a href="#">Početna</a></li>
+            <li><a href="#">Paketi</a></li>
+            <li><a href="#">Podrška</a></li>
+            <li><a class="active_link" href="prijava.html">Prijava</a></li>
+        </ul>
+    </nav>
+
+    <form action="action_page.php" method="POST">
+        <div class="login_div">
+            <div class="container">
+                <label for="username"><b>Username</b></label>
+                <input type="text" placeholder="Enter Username" name="username" required>
+    
+                <label for="password"><b>Password</b></label>
+                <input type="password" form="password" placeholder="Enter Password" required>
+                
+                
+                <label>
+                    <input type="checkbox" checked="checked" name="remember">Remember me
+                </label>
+            </div>
+
+            <div class="container" style="background-color:#f1f1f1">
+                
+                <button type="button" class="cancel_button">Cancel</button>
+                <button type="submit">Login</button>
+                <span class="password"><a href="#">Forgot password?</a></span>
+            </div>
+    </form>
+    
+        
+    </div>
+</body>
+</html>
