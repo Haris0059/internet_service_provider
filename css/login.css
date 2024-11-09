@@ -22,3 +22,10 @@ label {
 hr {
     color: #808080;
 }
+
+h1 {
+    font-size: 3rem;
+    font-weight: 700;
+    margin: 0;
+    color: white;
+}
