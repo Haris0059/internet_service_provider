@@ -1,0 +1,30 @@
+p {
+    color: white;
+    margin: 0;
+    margin-block-start: 1em;
+    margin-block-end: 1em;
+    margin-inline-start: 0px;
+    margin-inline-end: 0px;
+}
+
+h1 {
+    font-size: 3rem;
+    font-weight: 700;
+    margin: 0;
+}
+
+.container-fluid {
+    background-color: #171614;
+}
+
+.container {
+    background-color: white;
+}
+
+.intro p {
+    color: #171614;
+    font-size: 1.25rem;
+    font-weight: 500;
+    margin-top: 20px;
+    margin-bottom: 75px;
+}
