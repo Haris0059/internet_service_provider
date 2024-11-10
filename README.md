@@ -38,4 +38,4 @@ Please make sure to update tests as appropriate.
 
 ## License
 
-License used in this Project is [Apache 2.0 License](https://github.com/Haris0059/internet_service_provider?tab=Apache-2.0-1-ov-file) 
+License used in this Project is [Apache 2.0 License](https://www.apache.org/licenses/LICENSE-2.0) 
