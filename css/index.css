@@ -75,7 +75,7 @@
     -webkit-background-clip: text;
 }
 
-li{
+.banner li{
     display: inline-block;
     font-size: 16px;
     font-weight: 400;
