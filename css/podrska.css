@@ -13,12 +13,23 @@ h1 {
     margin: 0;
 }
 
+h2 {
+    font-size: 1.75rem;
+    font-weight: 600;
+    text-align: center;
+}
+
 .container-fluid {
     background-color: #171614;
 }
 
 .container {
     background-color: white;
+}
+
+.intro{
+    padding-top: 100px; 
+    padding-bottom: 25px;
 }
 
 .intro p {
