@@ -55,3 +55,7 @@ footer {
     list-style: none;
 }
 
+.footer_link:hover {
+    opacity: 0.5;
+    transition: all 200ms ease-in;
+}

@@ -9,7 +9,7 @@
 }
 
 .category-grid .card {
-    max-height: 300px;
+    max-height: auto;
     max-width: 280px;
     min-height: 300px;
     min-width: 280px;
@@ -42,4 +42,24 @@
 
 strong {
     color: black;
+}
+
+li {
+    text-align: left;
+}
+.card {
+    display: inline-block;
+}
+
+.card-body .btn {
+    color: #333;
+    background-color: white;
+    border-color: #333;
+    padding-left: 20px;
+    padding-right: 20px;
+    margin-bottom: 10px;
+}
+
+.card-title {
+    margin-top: 10px;
 }
