@@ -21,13 +21,13 @@ Click Go Live in right-bottom corner. Web Application will automatically open.
 
 Home Page provides an overview of ISP services, including the 1 Gbps high-speed internet option.
 
-Navigate to the “Packages” section to view different internet packages. Each plan details the speed, cost, and additional features.
+Via Navigation Bar navigate to the “Packages” section to view different internet packages. Each plan details the speed, cost, and additional features.
 
-If you experience issues or need some type of assistance, go to the “Support” section and click on “Report an Issue.” This will direct you to a form where you can report your current speeds and location for support.
+If you experience issues or need some type of assistance, via Navigation Bar go to the “Support” page.
 
-For inquiries or further assistance, navigate to the “Support” page and scroll to the end of the page. You can reach customer service via phone or email
+For inquiries or further assistance, via Navigation Bar navigate to the “Support” page and scroll to the end of the page. You can reach customer service via phone or email.
 
-For answers to common questions, check out the section under for support and Troubleshooting guides are also available to help you resolve typical issues.
+For answers to common questions, via Navigation Bar navigate to the “Support” page, scroll a bit and check out our Troubleshooting guides which are available to help you resolve typical issues.
 
 ## Contributing
 
