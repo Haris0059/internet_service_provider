@@ -1,6 +1,6 @@
 # Internet Service Provider
 
-ISP Web Application is Website which function is to present a new solution to problems with Slow Internet Speeds in Bosnia And Herzegovina. Currently ISP has fastest Internet Speed in Bosnia And Herzegovina reaching over 1 Gbps.
+ISP Web Application is Website which function is to present a new solution to problems with Slow Internet Speeds in Bosnia And Herzegovina. Currently ISP has fastest Internet Speed in Bosnia And Herzegovina reaching over 1 Gbps. We’ve integrated the Geolocation API to plan future features, like helping you find the quickest route from your location to our store.
 
 ## Installation
 
@@ -18,16 +18,16 @@ and search "Live Server"
 
 
 Click Go Live in right-bottom corner. Web Application will automatically open.
+
 Home Page provides an overview of ISP services, including the 1 Gbps high-speed internet option.
 
-Navigate to the “Plans” section to view different internet packages. Each plan details the speed, cost, and additional features.
-
+Navigate to the “Packages” section to view different internet packages. Each plan details the speed, cost, and additional features.
 
 If you experience issues or need some type of assistance, go to the “Support” section and click on “Report an Issue.” This will direct you to a form where you can report your current speeds and location for support.
 
 For inquiries or further assistance, navigate to the “Support” page and scroll to the end of the page. You can reach customer service via phone or email
 
-For answers to common questions, check out the FAQ section under “Support” Troubleshooting guides are also available to help you resolve typical connectivity issues.
+For answers to common questions, check out the section under for support and Troubleshooting guides are also available to help you resolve typical issues.
 
 ## Contributing
 
