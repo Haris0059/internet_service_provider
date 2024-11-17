@@ -49,46 +49,46 @@
             <h1>Registracija</h1>
         </div>
         <hr>
-        <form action="https://jsonplaceholder.typicode.com/" method="POST">
+        <form action="https://jsonplaceholder.typicode.com/posts" method="POST">
             <div class="col-12">
                 <label for="uname" class="form-label">
                     <p>Korisničko Ime</p>
                 </label>
             </div>
             <div class="col-12">
-                <input type="text" class="form-control" form="uname" name="uname" placeholder="Korisničko Ime" required>
+                <input type="text" class="form-control" id="uname" name="uname" placeholder="Korisničko Ime" required>
                 <div class="valid-feedback">Valid.</div>
                 <div class="invalid-feedback">Please fill out this field.</div>
             </div>
-
+        
             <div class="col-12">
                 <label for="email" class="form-label">
                     <p>Email Address</p>
                 </label>
             </div>
             <div class="col-12">
-                <input type="text" class="form-control" form="email" name="email" placeholder="Email Addressa" required>
+                <input type="email" class="form-control" id="email" name="email" placeholder="Email Addressa" required>
                 <div class="valid-feedback">Valid.</div>
                 <div class="invalid-feedback">Please fill out this field.</div>
             </div>
-
+        
             <div class="col-12">
-                <label for="pwd" class="form-label">
+                <label for="password" class="form-label">
                     <p>Šifra</p>
                 </label>
             </div>
             <div class="col-12">
-                <input type="password" class="form-control bg-black text-white" id="pwd" placeholder="Ukucaj šifru" name="pswd" required>
+                <input type="password" class="form-control bg-black text-white" id="password" placeholder="Ukucaj šifru" name="password" required>
                 <div class="invalid-feedback">Please fill out this field.</div>
             </div>
-
+        
             <div class="col-12">
-                <label for="pwd" class="form-label">
+                <label for="confirm-password" class="form-label">
                     <p>Ponovi Šifru</p>
                 </label>
             </div>
             <div class="col-12">
-                <input type="password" class="form-control bg-black text-white" id="pwd" placeholder="Ponovo ukucaj šifru" name="pswd" required>
+                <input type="password" class="form-control bg-black text-white" id="confirm-password" placeholder="Ponovo ukucaj šifru" name="confirm-password" required>
                 <div class="valid-feedback">Valid.</div>
                 <div class="invalid-feedback">Please fill out this field.</div>
             </div>
@@ -97,7 +97,7 @@
                 <p>Klikom na Registriraj se pristajete na naše <a href="#">Uslove Korištenja</a>.</p>
             </div>
             <div class="col-12 mb-4">
-                <button type="submit" class="btn btn-primary w-100"> Registriraj Se</button>
+                <button type="submit" class="btn btn-primary w-100">Registriraj Se</button>
             </div>
         </form>
     </div>

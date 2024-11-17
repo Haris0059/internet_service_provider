@@ -52,8 +52,8 @@
 
             <hr>
             
-            <form action="https://jsonplaceholder.typicode.com/" method="POST" class="needs-validation">
-                
+            <form action="https://jsonplaceholder.typicode.com/posts" method="POST">
+
                 <div class="col-12 my-3">
                     <label for="uname" class="form-label">
                         <p>Korisničko Ime</p>
@@ -62,27 +62,27 @@
                     <div class="valid-feedback">Valid.</div>
                     <div class="invalid-feedback">Please fill out this field.</div>
                 </div>
+
                 <div class="col-12">
                     <label for="pwd" class="form-label">
                         <p>Šifra</p>
                     </label>
-                    <input type="password" class="form-control bg-black text-white" id="pwd" placeholder="Ukucaj šifru" name="pswd" required>
+                    <input type="password" class="form-control bg-black text-white" id="pwd" placeholder="Ukucaj šifru" name="pwd" required>
                     <div class="valid-feedback">Valid.</div>
                     <div class="invalid-feedback">Please fill out this field.</div>
                 </div>
 
                 <div class="form-check col-12 my-3">
-                    <input class="form-check-input" type="checkbox" id="myCheck" name="remember" id="remember-input">
-                    <label class="form-check-label" for="myCheck" id="form-remember-label">
+                    <input class="form-check-input" type="checkbox" id="remember-me" name="remember-me">
+                    <label class="form-check-label" for="remember-me">
                         <p>Zapamti Me</p>
                     </label>
-                    <div class="valid-feedback">Valid.</div>
-                    <div class="invalid-feedback">Check this checkbox to continue.</div>
                 </div>
+
                 <div class="col-12 my-3">
                     <button type="submit" class="btn btn-primary w-100">Log In</button>
                 </div>
-            </form>
+              </form>
 
             <div class="row mb-3">
                 <div class="col" style="text-align: left;">
