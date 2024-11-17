@@ -39,3 +39,7 @@ Please make sure to update tests as appropriate.
 ## License
 
 License used in this Project is [Apache 2.0 License](https://www.apache.org/licenses/LICENSE-2.0) 
+
+## Special Thanks
+
+Special thanks to Emina Efendira (1st Year Student of Graphic Design and Multimedia) for designing the logo and banner for this project. Her work has given the ISP Web Application a professional and unique brand identity, enhancing the visual appeal and user experience.
