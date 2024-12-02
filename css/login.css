@@ -1,0 +1,31 @@
+body {
+    background-color: #171614;
+}
+
+p {
+    color: white;
+    margin-bottom: 0;
+}
+
+label {
+    margin: 8px 0;
+    font-weight: 600;
+}
+  
+.form-control {
+    border-radius: 6px;
+    border: 1px solid #808080;
+    background: #000;
+    color: #fff;
+}
+
+hr {
+    color: #808080;
+}
+
+h1 {
+    font-size: 3rem;
+    font-weight: 700;
+    margin: 0;
+    color: white;
+}

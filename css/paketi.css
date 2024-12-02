@@ -1,0 +1,88 @@
+.intro h1 {
+    font-weight: 700;
+    font-size: 3rem;
+    margin: 0;
+}
+
+.category-grid {
+    margin-bottom: 75px;
+}
+
+.category-grid .card {
+    max-height: auto;
+    max-width: 280px;
+    min-height: 300px;
+    min-width: 280px;
+    vertical-align: top;
+    text-align: center;
+}
+.price-wrap {
+    font-weight: 700;
+    font-size: 36px;
+    margin: 0;
+    padding: 0;
+    border: 0;
+}
+
+.price {
+    font-weight: 300;
+    font-size: 12px;
+    display: inline-block;
+    position: relative;
+    left: -5px;
+    top: 2px;
+}
+
+.new-price {
+    font-size: 11px;
+    font-weight: 300;
+    color: #333;
+    padding: 0;
+}
+
+strong {
+    color: black;
+}
+
+li {
+    text-align: left;
+}
+.card {
+    display: inline-block;
+}
+
+.card-body .btn {
+    color: #333;
+    background-color: white;
+    border-color: #333;
+    padding-left: 20px;
+    padding-right: 20px;
+    margin-bottom: 10px;
+}
+
+.card-title {
+    margin-top: 10px;
+}
+
+.btn:hover {
+    color: white;
+    background-color: #333;
+}
+
+.btn:active {
+    opacity: 0.8;
+    background-color: white;
+    color: #333;
+}
+
+.table-section h2 {
+    font-weight: 600;
+    font-size: 2.4rem;
+    margin: 0;
+    text-align: center;
+    margin-bottom: 75px;
+}
+
+.table-section {
+    margin-bottom: 75px;
+}

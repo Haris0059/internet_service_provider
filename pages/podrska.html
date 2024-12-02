@@ -1,0 +1,316 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>ISP | Podrska</title>
+    <link rel="stylesheet" href="/css/nav_footer.css">
+    <!-- Bootstrap 5 CSS CDN -->
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0-alpha1/dist/css/bootstrap.min.css" rel="stylesheet">
+    <!-- Bootstrap Icons CDN (for icons) -->
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap-icons/font/bootstrap-icons.css" rel="stylesheet">
+    <link rel="stylesheet" href="/css/scrollbar.css">
+    <link rel="stylesheet" href="/css/podrska.css">
+    <link rel="icon" href="/images/ISP_Logo.jpg">
+       
+</head>
+<body>
+    <!-- Navbar -->
+    <nav class="navbar navbar-expand-lg navbar-dark py-3">
+        <div class="container-fluid">
+            <a class="navbar-brand ps-5" href="/index.html"><img class="logo" src="/images/ISP_Logo_Resize.png" alt="" width="32px"></a>
+            <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#myNavbar" aria-controls="myNavbar" aria-expanded="false" aria-label="Toggle navigation">
+                <span class="navbar-toggler-icon"></span>
+            </button>
+        <div class="collapse navbar-collapse" id="myNavbar">
+            <ul class="navbar-nav ms-auto mb-2 mb-lg-0">
+                <li class="nav-item">
+                    <a class="nav-link pe-5" href="/index.html">Početna</a>
+                </li>
+                <li class="nav-item">
+                    <a class="nav-link pe-5" href="/pages/paketi.html">Paketi</a>
+                </li>
+                <li class="nav-item">
+                    <a class="nav-link active pe-5" aria-current="page" href="/pages/podrska.html">Podrška</a>
+                </li>
+                <ul class="navbar-nav me-auto">
+                    <li class="nav-item">
+                        <a class="nav-link pe-5" href="/pages/login.html"><i class="bi bi-person"></i> Prijava</a>
+                    </li>
+                </ul>
+            </div>
+        </div>
+    </nav>
+    <!-- Bootstrap 5 JavaScript Bundle with Popper -->
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0-alpha1/dist/js/bootstrap.bundle.min.js"></script>
+
+
+    <!-- Header for Support Page (Podrška) -->
+    <section class="main-content">
+        <div class="container-fluid text-center">
+            <div class="col-12 py-5">
+                <h1 style="color: white;">Podrška</h1>
+            </div>
+            <div class="col-12 py-5" >
+                <form action="#">
+                    <input type="search" class="form-control w-50" placeholder="Kako možemo da vam pomognemo?" style="margin: auto;">
+                </form>
+            </div>
+        </div>
+    </section>
+
+    <br>
+    <!-- Second section which includes a description of the Page -->
+    <section class="intro">
+        <div class="container text-center">
+            <div class="col-12">
+                <h1>Trebate pomoć? Tu smo za vas.</h1>
+            </div>
+            <div class="row px-5">
+                <div class="col-1"></div>
+                <div class="col-10">
+                    <p>
+                        Od postavki računa do dozvola, pronađite pomoć za sve vezano uz ISP.
+                        Ako ste novi i tražite savjete, pogledajte naš <a href="https://www.youtube.com/watch?v=jh_KFTYJnDo" target="_blank">Vodič za početnike</a>.
+                    </p>
+                </div>
+                <div class="col-1"></div>
+            </div>
+        </div>
+    </section>
+
+    <!-- Category Grid, this is a Grid for 8 different Cards -->
+    <section class="category-grid">
+        <div class="container  text-center">
+            
+            <a href="#" data-bs-toggle="modal" data-bs-target="#myModal">
+                <div class="card text-center m-2" style="width: 18rem; display: inline-block; max-width: 286px;">
+                    <img src="/images/obavjestenja.svg" alt="" class="card-img-top">
+                    <div class="card-body">
+                        <h2 class="card-title">Obavještenja</h2>
+                        <hr class="card-hr mx-5">
+                        <h3 class="card-text">
+                            Uvijek smo u toku. Evo najvažnijih informacija.
+                        </h3>
+                    </div>
+                </div>
+            </a>
+
+            <a href="#" data-bs-toggle="modal" data-bs-target="#myModal">
+                <div class="card text-center m-2" style="width: 18rem; display: inline-block;">
+                    <img src="/images/osnove.svg" alt="" class="card-img-top">
+                    <div class="card-body">
+                        <h2 class="card-title">Osnove</h2>
+                        <hr class="card-hr mx-5">
+                        <h3 class="card-text">
+                            Započnite na pravi način! Ne na pogrešan!
+                        </h3>
+                    </div>
+                </div>
+            </a>
+
+            <a href="#" data-bs-toggle="modal" data-bs-target="#myModal">
+                <div class="card text-center m-2" style="width: 18rem; display: inline-block;">
+                    <img src="/images/postavke_racuna.svg" alt="" class="card-img-top">
+                    <div class="card-body">
+                        <h2 class="card-title">Postavke Računa</h2>
+                        <hr class="card-hr mx-5">
+                        <h3 class="card-text">
+                            Vi ste jedinstveni, baš kao i vaš račun.
+                        </h3>
+                    </div>
+                </div>
+            </a>
+
+            <a href="#" data-bs-toggle="modal" data-bs-target="#myModal">
+                <div class="card text-center m-2" style="width: 18rem; display: inline-block;">
+                    <img src="/images/postavke_interneta.svg" alt="" class="card-img-top">
+                    <div class="card-body">
+                        <h2 class="card-title">Postavke Interneta</h2>
+                        <hr class="card-hr mx-5">
+                        <h3 class="card-text">
+                            Skoro pa uzbudljivo kao i uređenje interijera.
+                        </h3>
+                    </div>
+                </div>
+            </a>
+
+            <a href="#" data-bs-toggle="modal" data-bs-target="#myModal">
+                <div class="card text-center m-2" style="width: 18rem; display: inline-block;">
+                    <img src="/images/placanje_i_racuni.svg" alt="" class="card-img-top">
+                    <div class="card-body">
+                        <h2 class="card-title">Kupovina</h2>
+                        <hr class="card-hr mx-5">
+                        <h3 class="card-text">
+                            Ne morate se iscrpljivati kupovinom. 
+                            Mi smo tu da pomognemo.
+                        </h3>
+                    </div>
+                </div>
+            </a>
+
+            <a href="#" data-bs-toggle="modal" data-bs-target="#myModal">
+                <div class="card text-center m-2" style="width: 18rem; display: inline-block;">
+                    <img src="/images/promocije.svg" alt="" class="card-img-top">
+                    <div class="card-body">
+                        <h2 class="card-title">Promocije</h2>
+                        <hr class="card-hr mx-5">
+                        <h3 class="card-text">
+                            Dobrodošao, umorni putniče! Želiš li pogledati naše Promocije?
+                        </h3>
+                    </div>
+                </div>
+            </a>
+
+            <a href="#" data-bs-toggle="modal" data-bs-target="#myModal">
+                <div class="card text-center m-2" style="width: 18rem; display: inline-block;">
+                    <img src="/images/placanje_i_racuni.svg" alt="" class="card-img-top">
+                    <div class="card-body">
+                        <h2 class="card-title">Plaćanje i Računi</h2>
+                        <hr class="card-hr mx-5">
+                        <h3 class="card-text">
+                            Onaj osjećaj kad pogledaš stanje na svom računu.
+                        </h3>
+                    </div>
+                </div>
+            </a>
+
+            <a href="#" data-bs-toggle="modal" data-bs-target="#myModal">
+                <div class="card text-center m-2" style="width: 18rem; display: inline-block;">
+                    <img src="/images/poznati_problemi.svg" alt="" class="card-img-top">
+                    <div class="card-body">
+                        <h2 class="card-title">Greške i Problemi</h2>
+                        <hr class="card-hr mx-5">
+                        <h3 class="card-text">
+                            Rješenja problema na dohvat ruke – uzmi što ti treba.
+                        </h3>
+                    </div>
+                </div>
+            </a>
+        </div>    
+    </section>
+
+    <section class="intro" style="padding-top: 10px;">
+        <h2>
+            Drugi načini za pronalaženje pomoći.
+        </h2>
+    </section>
+
+
+
+    <!--Category Grid for more ways of help-->
+    <section class="category-grid">
+        <div class="container  text-center">
+            
+                <div class="card text-center m-2" style="width: 18rem; display: inline-block; max-width: 286px;">
+                    <img src="/images/pozovite_nas.svg" alt="" class="card-img-top">
+                    <div class="card-body">
+                        <h2 class="card-title">Pozovite Nas</h2>
+                        <hr class="card-hr mx-5">
+                        <h3 class="card-text">
+                            Besplatni pozivi preko ISP mreže <a href="tel:1590">1590</a>
+                        </h3>
+                        <h3 class="card-text">
+                            Van ISP mreže <a href="tel:0100 5999">0100 59999</a>
+                        </h3>
+                    </div>
+                </div>
+
+                <div class="card text-center m-2" style="width: 18rem; display: inline-block; max-width: 286px;">
+                    <img src="/images/posjetite_nas.svg" alt="" class="card-img-top">
+                    <div class="card-body">
+                        <h2 class="card-title">Posjetite Nas</h2>
+                        <hr class="card-hr mx-5">
+                        <h3 class="card-text">
+                            Dobrodošli u naše <a href="https://maps.app.goo.gl/nm1FVoCURQya2BQz8" target="_blank">poslovnice</a>.
+                        </h3>
+                    </div>
+                </div>
+
+                <div class="card text-center m-2" style="width: 18rem; display: inline-block; max-width: 286px;">
+                    <img src="/images/osnove.svg" alt="" class="card-img-top">
+                    <div class="card-body">
+                        <h2 class="card-title">Pišite Nam</h2>
+                        <hr class="card-hr mx-5">
+                        <h3 class="card-text">
+                            Pošaljite nam mail na <a href="mailto:amela.vatres@ibu.edu.ba">amela.vatres@ibu.edu.ba</a>
+                        </h3>
+                    </div>
+                </div>
+
+        </div>
+    </section>
+
+
+
+  <!-- Modal -->
+  <div id="myModal" class="modal fade" tabindex="-1" aria-labelledby="exampleModalLabel" aria-hidden="true">
+    <div class="modal-dialog">
+      <div class="modal-content">
+        <div class="modal-header">
+          <h5 class="modal-title" id="exampleModalLabel">Ooops!</h5>
+          <button type="button" class="btn-close" data-bs-dismiss="modal" aria-label="Close"></button>
+        </div>
+        <div class="modal-body">
+          <p style="color: #171614;">Ova stranica nije u funkciji. Budite strpljivi!</p>
+        </div>
+        <div class="modal-footer">
+          <button type="button" class="btn btn-danger" data-bs-dismiss="modal">Zatvori</button>
+        </div>
+      </div>
+    </div>
+  </div>
+
+
+
+
+
+
+
+
+
+    <!-- Footer -->
+    <footer>
+        <div class="footer_grid">
+            <div class="footer_section">
+                <h3><b>Internet Service Provider</b></h3>
+                <p>
+                    Pouzdan pružatelj internet usluga koji nudi brza, sigurna i skalabilna rješenja za povezivanje za poslovne korisnike i domaćinstva. 
+                    Pružamo besprijekorno online iskustvo s prilagodljivim paketima, podrškom 24/7 i najnovijom tehnologijom.
+                </p>
+            </div>
+
+            <div class="footer_section">
+                <ul class="footer_list">
+                    <li class="footer_list_item">
+                        <h6><b>PAKETI</b></h6>
+                        <a href="/pages/paketi.html" class="footer_link">NET Light</a>
+                        <a href="/pages/paketi.html" class="footer_link">NET Full</a>
+                        <a href="/pages/paketi.html" class="footer_link">NET Premium</a>
+                    </li>
+                    <li class="footer_list_item">
+                        <h6><b>PODRŠKA</b></h6>
+                        <a href="/pages/podrska.html" class="footer_link">Podrška</a>
+                        <a href="/pages/podrska.html" class="footer_link">Servisi</a>
+                        <a href="/pages/podrska.html" class="footer_link">Kontakt</a>
+                    </li>
+                    <li class="footer_list_item">
+                        <h6><b>MOJ PROFIL</b></h6>
+                        <a href="/pages/login.html" class="footer_link">Moj Profil</a>
+                        <a href="/pages/login.html" class="footer_link">Uzmi dodatne usluge</a>
+                        <a href="/pages/login.html" class="footer_link">Pregledaj E-račune</a>
+                    </li>
+                </ul>
+            </div>
+        </div>
+
+        <hr>
+
+        <div class="copyright" style="text-align: center;">
+            ©2024 Foundations of Web Development, Haris Skeledžija
+        </div>
+    </footer>
+
+    
+</body>
+</html>
