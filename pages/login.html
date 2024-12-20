@@ -24,7 +24,7 @@
         <div class="collapse navbar-collapse" id="myNavbar">
             <ul class="navbar-nav ms-auto mb-2 mb-lg-0">
                 <li class="nav-item">
-                    <a class="nav-link pe-5" href="/index.html">Početna</a>
+                    <a class="nav-link pe-5" aria-current="page" href="/index.html">Početna</a>
                 </li>
                 <li class="nav-item">
                     <a class="nav-link pe-5" href="/pages/paketi.html">Paketi</a>
@@ -32,11 +32,12 @@
                 <li class="nav-item">
                     <a class="nav-link pe-5" href="/pages/podrska.html">Podrška</a>
                 </li>
-                <ul class="navbar-nav me-auto">
-                    <li class="nav-item">
-                        <a class="nav-link active pe-5" aria-current="page" href="/pages/login.html"><i class="bi bi-person"></i> Prijava</a>
-                    </li>
-                </ul>
+                <li class="nav-item">
+                    <a class="nav-link active pe-5" href="/pages/login.html"><i class="bi bi-person"></i> Prijava</a>
+                </li>
+                <li class="nav-item">
+                    <a class="nav-link pe-5" href="javascript:void(0);" id="theme-switcher"><i class="bi"></i></a>
+                </li>
             </div>
         </div>
     </nav>
@@ -105,6 +106,6 @@
 
 
 
-    
+        <script src="/js/themeswitcher.js"></script>
 </body>
 </html>
