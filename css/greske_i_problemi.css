@@ -1,0 +1,136 @@
+* {
+    font-family: 'Poppins',Helvetica,Arial,Lucida,sans-serif;
+}
+
+/* Style the list */
+ul.breadcrumb {
+    display: inline-block;
+    padding: 10px 16px;
+    list-style: none;
+    background-color: #fff; 
+    margin-top: 1rem;
+}
+  
+/* Display list items side by side */
+ul.breadcrumb li {
+    display: inline;
+    font-size: 18px;
+}
+  
+/* Add a slash symbol (/) before/behind each list item */
+ul.breadcrumb li+li:before {
+    padding: 8px;
+    color: black;
+    content: "/\00a0";
+}
+  
+/* Add a color to all links inside the list */
+ul.breadcrumb li a {
+    color: #0275d8;
+    text-decoration: none;
+}
+  
+/* Add a color on mouse-over */
+ul.breadcrumb li a:hover {
+    color: #01447e;
+    text-decoration: underline;
+}
+.search-box {
+    position: relative;
+    width: 300px;
+}
+.search-icon {
+    position: absolute;
+    top: 50%;
+    left: 10px;
+    transform: translateY(-50%);
+    pointer-events: none;
+    color: rgb(46, 51, 56);
+}
+.search-box input{
+    appearance: none;
+    background-color: rgb(242, 243, 245);
+    border: none;
+    border-radius: 4px;
+    box-sizing: border-box;
+    color: rgb(46, 51, 56);
+    cursor: text;
+    display: inline-block;
+    font-family: gg_sans, "Noto Sans", "Helvetica Neue", Helvetica, Arial, sans-serif;
+    font-size: 16px;
+    font-weight: 500;
+    height: 40px;
+    letter-spacing: normal;
+    line-height: 18.4px;
+    max-width: 100%;
+    min-width: 300px;
+    outline: none;
+    padding: 1px 20px 1px 40px;
+    text-align: start;
+    text-transform: none;
+    transition: border 0.12s ease-in-out;
+    width: 300px;
+    -webkit-font-smoothing: antialiased;
+}
+
+h1 {
+    font-size: 3rem;
+    font-weight: 700;
+    margin: 0;
+}
+
+h2 {
+    font-size: 1.75rem;
+    font-weight: 600;
+    margin: 0;
+}
+
+a {
+    font-size: 1rem;
+    font-weight: 500;
+    margin: 0;
+}
+
+.main-content {
+    display: grid;
+    grid-template-columns: repeat(auto-fit, minmax(340px, 1fr));
+}
+
+.section {
+    border-bottom-color: rgb(246, 246, 247);
+    border-bottom-style: solid;
+    border-bottom-width: 2px;
+    box-sizing: border-box;
+    color: rgb(46, 51, 56);
+    display: block;
+    flex-basis: auto;
+    flex-grow: 0;
+    flex-shrink: 1;
+    font-family: gg_sans, "Noto Sans", "Helvetica Neue", Helvetica, Arial, sans-serif;
+    font-size: 15px;
+    font-weight: 400;
+    height: 100%;
+    line-height: 22.5px;
+    margin-bottom: 0px;
+    padding-bottom: 12px;
+    padding-left: 12px;
+    padding-right: 12px;
+    padding-top: 12px;
+    text-size-adjust: 100%;
+    unicode-bidi: isolate;
+    width: 100%;
+    -webkit-font-smoothing: antialiased;
+  }
+
+.article-list {
+    margin: 0;
+}  
+
+.article-item {
+    text-decoration: none;
+}
+
+.view-more {
+    text-decoration: none;
+    font-size: 1rem;
+}
