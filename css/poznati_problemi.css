@@ -1,0 +1,83 @@
+* {
+    font-family: 'Poppins',Helvetica,Arial,Lucida,sans-serif;
+}
+
+/* Style the list */
+ul.breadcrumb {
+    display: inline-block;
+    padding: 10px 16px;
+    list-style: none;
+    background-color: #fff; 
+    margin-top: 1rem;
+}
+  
+/* Display list items side by side */
+ul.breadcrumb li {
+    display: inline;
+    font-size: 18px;
+}
+  
+/* Add a slash symbol (/) before/behind each list item */
+ul.breadcrumb li+li:before {
+    padding: 8px;
+    color: black;
+    content: "/\00a0";
+}
+  
+/* Add a color to all links inside the list */
+ul.breadcrumb li a {
+    color: #0275d8;
+    text-decoration: none;
+}
+  
+/* Add a color on mouse-over */
+ul.breadcrumb li a:hover {
+    color: #01447e;
+    text-decoration: underline;
+}
+
+a {
+    font-size: 1rem;
+    font-weight: 500;
+    margin: 0;
+}
+
+.main-content {
+    display: grid;
+    grid-template-columns: repeat(auto-fit, minmax(340px, 1fr));
+}
+
+.section {
+    border-bottom-color: rgb(246, 246, 247);
+    border-bottom-style: solid;
+    border-bottom-width: 2px;
+    box-sizing: border-box;
+    color: rgb(46, 51, 56);
+    display: block;
+    flex-basis: auto;
+    flex-grow: 0;
+    flex-shrink: 1;
+    font-family: gg_sans, "Noto Sans", "Helvetica Neue", Helvetica, Arial, sans-serif;
+    font-size: 15px;
+    font-weight: 400;
+    height: 100%;
+    line-height: 22.5px;
+    margin-bottom: 0px;
+    padding-bottom: 12px;
+    padding-left: 12px;
+    padding-right: 12px;
+    padding-top: 12px;
+    text-size-adjust: 100%;
+    unicode-bidi: isolate;
+    width: 100%;
+    -webkit-font-smoothing: antialiased;
+  }
+
+.article-list {
+    margin: 0;
+}  
+
+.article-item {
+    margin-bottom: 1000px;
+    text-decoration: none;
+}

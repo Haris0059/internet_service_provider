@@ -1,0 +1,14 @@
+[
+    { "status": "[Riješeno]", "title": "Teškoće pri povezivanju uređaja" },
+    { "status": "[Riješeno]", "title": "Nema internetske veze" },
+    { "status": "[Riješeno]", "title": "Problemi sa DNS-om" },
+    { "status": "[Riješeno]", "title": "Nestabilna brzina preuzimanja" },
+    { "status": "[Riješeno]", "title": "Problemi sa IP adresom" },
+    { "status": "[Riješeno]", "title": "Problemi sa Wi-Fi signalom" },
+    { "status": "[Riješeno]", "title": "Problemi sa brzinom interneta" },
+    { "status": "[Riješeno]", "title": "Problemi sa prekidima u vezi" },
+    { "status": "[Riješeno]", "title": "Problemi sa postavkama rutera" },
+    { "status": "[Riješeno]", "title": "Problemi sa postavkama uređaja" },
+    { "status": "[Riješeno]", "title": "Problemi sa postavkama operativnog sustava" },
+    { "status": "[Riješeno]", "title": "Problemi sa postavkama aplikacija" }
+]
